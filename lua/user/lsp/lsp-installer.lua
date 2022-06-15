@@ -5,6 +5,7 @@ end
 
 local servers = {
   "sumneko_lua",
+  "pylsp"
 }
 
 local settings = {
