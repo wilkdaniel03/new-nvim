@@ -20,9 +20,37 @@ local check_backspace = function()
   return col == 0 or vim.fn.getline("."):sub(col, col):match "%s"
 end
 
-local icons = require "user.icons"
-
-local kind_icons = icons.kind
+local kind_icons = {
+  Text = "",
+  Method = "",
+  Function = "",
+  Constructor = "",
+  Field = "",
+  -- Variable = "",
+  Variable = "",
+  Class = "",
+  Interface = "",
+  -- Module = "",
+  Module = "",
+  Property = "",
+  Unit = "",
+  Value = "",
+  Enum = "",
+  -- Keyword = "",
+  Keyword = "",
+  -- Snippet = "",
+  Snippet = "",
+  Color = "",
+  File = "",
+  Reference = "",
+  Folder = "",
+  EnumMember = "",
+  Constant = "",
+  Struct = "",
+  Event = "",
+  Operator = "",
+  TypeParameter = "",
+}
 
 cmp.setup {
   snippet = {
