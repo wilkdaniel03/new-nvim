@@ -60,6 +60,7 @@ return packer.startup(function(use)
   
   -- Colorschemes
   use "morhetz/gruvbox"
+  use 'folke/tokyonight.nvim'
   use "rmehri01/onenord.nvim"
 
   -- cmp plugins
