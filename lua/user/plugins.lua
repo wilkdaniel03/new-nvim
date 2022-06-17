@@ -81,6 +81,9 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
   use "RRethy/vim-illuminate"
 
+  -- Go
+  use "darrikonn/vim-gofmt"
+
   -- Telescope
   use "nvim-telescope/telescope.nvim"
 
